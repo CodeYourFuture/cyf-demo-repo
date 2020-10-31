@@ -5,4 +5,8 @@ If you're reading this on your computer, congratulations, you've cloned your fir
 Here's a question for you to answer:
 
 Queston: What is your favourite dessert food?
+<<<<<<< HEAD
+Your answer: cookie dough
+=======
 Your answer:
+>>>>>>> 5cd51b2dbeff9bd21df2b2e902ee3f3ad4959978
