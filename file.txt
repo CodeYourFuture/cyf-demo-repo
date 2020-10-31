@@ -2,7 +2,15 @@ This repository is an example to help you learn how to use Git and Github.
 
 If you're reading this on your computer, congratulations, you've cloned your first Git repository!
 
-Here's a question for you to answer:
+Here's a question for you to answer: 
 
 Queston: What is your favourite dessert food?
+<<<<<<< HEAD
 Your answer: Ice Cream
+=======
+<<<<<<< HEAD
+Your answer: Icecream
+=======
+Your answer:
+>>>>>>> 5cd51b2dbeff9bd21df2b2e902ee3f3ad4959978
+>>>>>>> 05d11ba5f23e8712f29596c8f5dcd3778fd815d6

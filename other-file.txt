@@ -3,4 +3,8 @@ Congrats, you found the OTHER file!
 There's another question in this one, but I promise it's not too tricky!
 
 Question: What is your favourite song?
+<<<<<<< HEAD
+Your answer: Faisal Alwi
+=======
 Your answer:
+>>>>>>> 5cd51b2dbeff9bd21df2b2e902ee3f3ad4959978
