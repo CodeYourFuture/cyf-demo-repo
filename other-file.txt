@@ -3,4 +3,19 @@ Congrats, you found the OTHER file!
 There's another question in this one, but I promise it's not too tricky!
 
 Question: What is your favourite song?
-Your answer:
+Your answer: One Day 
+
+
+function foo(result){
+    for (let result in foo){
+        console.log(food[result])
+    }
+};
+
+let result = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+foo(result);
