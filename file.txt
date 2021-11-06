@@ -3,4 +3,9 @@ If you're reading this on your computer, congratulations, you've cloned your fir
 Here's a question for you to answer:
 
 Queston: What is your favourite dessert food?
+<<<<<<< HEAD
 Your answer:Tiramisu
+=======
+
+Your answer:Ice cream
+>>>>>>> 6ad23afda5c5c95fbf0e7d9985bc390ee7f4da96
