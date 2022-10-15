@@ -9,6 +9,4 @@ Your answer: Cheesecake, Apples
 
 This clones the repository from github so now you can view the code on your laptop in Visual Stuido Code., Do you have any quest
 
-CHANGES
-
-TEST
+test 2nd
