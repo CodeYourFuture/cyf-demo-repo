@@ -1,8 +1,14 @@
 This repository is an example to help you learn how to use Git and Github.
 
-If you're reading this on your computer, congratulations, you've cloned your first Git repository!
+If you're reading this on your computer, congratulations, you've cloned your first Git repository
 
 Here's a question for you to answer:
 
 Queston: What is your favourite dessert food?
 Your answer: Cheesecake, Apples
+
+This clones the repository from github so now you can view the code on your laptop in Visual Stuido Code., Do you have any quest
+
+test 2nd
+
+3rd
