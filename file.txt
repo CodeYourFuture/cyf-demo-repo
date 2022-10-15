@@ -8,4 +8,4 @@ Question: What is your favourite dessert food?
 Your answer: Chocolate cake, ice cream
 push 3: add this line 
 push 4: without save
-push 5
+push 5: don't pull all commits
