@@ -4,5 +4,10 @@ If you're reading this on your computer, congratulations, you've cloned your fir
 
 Here's a question for you to answer:
 
+<<<<<<< HEAD
 Queston: What is your favourite dessert food?
 Your answer: Ice cream
+=======
+Queston: What is your favourite dessert sport?
+Your answer: swimming
+>>>>>>> 4631d8df8703c8e67c4fde2726414b850caa169f
