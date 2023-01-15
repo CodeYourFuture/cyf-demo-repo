@@ -5,4 +5,13 @@ If you're reading this on your computer, congratulations, you've cloned your fir
 Here's a question for you to answer:
 
 Queston: What is your favourite dessert food?
-Your answer: 
+Your answer: Ice cream
+
+Question: What is your favourite movie?
+Answer: comedy movies
+
+Question: What is the process of cloning a repository to a local machine?
+Answer: open repository -> code -> copy url link -> open git -> file -> click one url ->
+paste -> click clone -> git -> repository -> open with vs code -> then make changes
+-> git -> write messege -> description -> commit to main ( main in your repository)
+-> push origin -> personal Github -> refresh (you can see the changes)
