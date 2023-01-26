@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 2rem;   
+}
+
+.button {
+    background-color: #c05326 ;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.button:focus{
+    color: #934423 ;
+}
+
+.button1{
+    background-color: #fff;
+    color: #c05326;
+}
+
+
+
+:hover{
+    color: #934423 ;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.menu :first-child{
+    background: #ddd;
+}
+
+.menu :last-child{
+    border: 1px solid #ddd;
+}
