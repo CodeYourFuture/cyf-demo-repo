@@ -57,6 +57,34 @@ body {
     padding-top: 20px;
     font-style: italic;
   }
+  .nav-link{
+    color:black;
+    text-decoration:none;
+  }
+  #nav-bar{
+    background-color:#ff9900;
+    box-shadow: 0 3px rgba(0,0,0,0.2);
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    padding-top:0;
+    position:fixed;
+    display:flex;
+    align-content:center;
+    text-decoration-line:none;
+    align-items:center;
+   justify-content:center;
+     top: 0;
+    right: 0;
+    z-index: 100;
+    
+  }
+  #nav-bar a:hover {
+    color: #71b100;
+    text-align: right;
+    text-decoration-line:none;
+    
+  }
   
   
   
