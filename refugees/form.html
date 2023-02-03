@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="forstily.css">
+</head>
+<body>
+
+<div>
+<Label for="username" >Username</Label>
+<input id="username" type="text" name="username" />
+</div>
+<br>
+<div>
+<label for="description">Description</label>
+<textarea id="description" cols="50" rows="5"></textarea>
+</div>
+<br>
+<br>
+<div>
+<fieldset>
+    <legend>Coffee size</legend>
+<input id="small" type="radio" name="size" value="small"/>
+<label for="small">Small</label>
+<input id="medium" type="radio" name="size" value="medium" checked/>
+<label for="medium">Medium</label>
+<input id="large" type="radio" name="size" value="large"/>
+<label for="large">Large</label>
+</fieldset>
+</div>
+<br>
+<div>
+ <fieldset>
+    <legend>Fruit I like</legend>
+  
+    <input id="apples" type="checkbox" name="favourite-fruit" value="apples" />
+    <label for="apples">Apples</label>
+  
+    <input id="bananas" type="checkbox" name="favourite-fruit" value="bananas" />
+    <label for="bananas">Bananas</label>
+  
+    <input id="oranges" type="checkbox" name="favourite-fruit" value="oranges" />
+    <label for="oranges">Oranges</label>
+  </fieldset>
+</div>
+<br>
+  <!--use radio buttons when is if there are only a few options to choose-->
+<div>
+  <label for="cuisine">Favourite cuisine</label>
+</div>
+<br>
+<br>
+<div>
+<select id="cuisine" name="cuisine">
+  <option value="scottish" selected>Scottish</option>
+  <option value="italian">Italian</option>
+  <option value="french">French</option>
+  <option value="polish">Polish</option>
+  <option value="romanian">Romanian</option>
+  <option value="greek">Greek</option>
+  <option value="mexican">Mexican</option>
+  <option value="turkish">Turkish</option>
+  <option value="lebanese">Lebanese</option>
+  <option value="syrian">Syrian</option>
+  <option value="moroccan">Moroccan</option>
+  <option value="ethiopian">Ethiopian</option>
+  <option value="nigerian">Nigerian</option>
+  <option value="indian">Indian</option>
+  <option value="chinese">Chinese</option>
+  <option value="thai">Thai</option>
+  <option value="korean">Korean</option>
+  <option value="japanese">Japanese</option>
+</select>
+</div>
+<br>
+<br>
+<!-- If there are lots of options to choose use a select input.-->
+<div>
+  <label>
+    Username
+    <input type="text" name="username" />
+  </label>
+</div>
+<br>
+
+
+
+<form>
+    <div>
+      <label for="username">Username be between 3 and 8 characters</label>
+      <input id="username" type="text" minlength="3" maxlength="8" required />
+    </div>
+    <br>
+    <div>
+      <label for="email">Email that is required</label>
+      <input id="email" type="email" required />
+    </div>
+    <br>
+    <div>
+      <label for="password">Password that can autocomplete with a suggested new password</label>
+    
+      <input id="password" type="password" autocomplete="new-password" required />
+    </div>
+    <br>
+    <div>
+      <label for="age">Age that must be between 18 and 118</label>
+      <input id="age" type="number" min="18" max="118" required />
+    </div>
+    <br>
+    <div>
+      <label for="disabled">Disabled input</label>
+      <input id="disabled" type="text" value="You cannot click me" disabled />
+    </div>
+    <br>
+</form>
+    <div>
+      <label for="read-only">Read-only input</label>
+      <input
+      id="read-only"
+      type="text"
+      value="You can only read my value"
+      readonly
+      />
+    </div>
+    <br>
+    <button>Submit</button>
+</form>
+<br>
+<br>
+<form>
+    <div>
+      <label for="search">Search</label>
+      <input id="search" type="text" />
+    </div>
+    <br>
+    <div>
+      <button>I will submit the form</button>
+      <button type="button">I will not submit the form</button>
+    </div>
+</form>
+<br>
+<form action="https://duckduckgo.com" method="get">
+    <!--    action tells the browser which URL to submit the form to
+    method tells the browser what type of request it is. Usually this is either 
+    a GET (asking for something) or a POST (updating something) request. 
+    GET and POST requests will be covered in more detail in the JavaScript module.-->
+    <div></div>
+      <label for="search">Search</label>
+      <input id="search" type="submit" name="q" />
+      <button>Search DuckDuckGo</button>
+      <form>
+        <div>
+          <label for="search">Search</label>
+          <input id="search" type="text" />
+        </div>
+        <br>
+        <div>
+          <button>I will submit the form</button>
+          <button type="button">I will not submit the form</button>
+        </div>
+    </form>
+    <br>
+    <br>
+</form>
+   <br>
+<br>
+<form action="https://github.com/search" method="get">
+   <div>
+      <label for="search">Search</label>
+      <input id="search" type="submit" name="q">
+    </div>
+</form>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
