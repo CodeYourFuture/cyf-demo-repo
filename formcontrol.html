@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Control</title>
     <Link rel="stylesheet" href="formcontrol.css"> 
-</head>
-<header id="header">
+   </head>
+   <header id="header">
     <img id= "header-img" src="https://i.postimg.cc/DwwZBP6L/pexels-rodnae-productions-5698851.jpg">
     
-  </header>
-<body>
+   </header>
+   <body>
     <h1 id="title">The Templet of T-shirt</h1>
     <form id="form">
-       <div class="form-control">
+        <div class="form-control">
           <Label for="customername" >Customer Name must be between 10 and 20 characters</Label>
           <input id="customername" type="text" name="customername" minlength="10" maxlength="20" required/>
+        </div>
+        <br>
+        <br>
+        <div class="form-control">
+          <label for="email">Customer's email that conteint @ characters</label>
+          <input id="email" type="email" required>
        </div>
        <br>
        <br>
        <div class="form-control">
-         <label for="email">Customer's email that conteint @ characters</label>
-         <input id="email" type="email" required>
-       </div>
-       <br>
-       <br>
-       <div class="form-control">
-         <fieldset>
-         <legend>What colour should this t-shirt be?</legend>
-         <input id="red" type="radio" name="colour" value="red"/>
-         <label for="red">Red</label>
-         <input id="white" type="radio" name="colour" value="white"/>
-         <label for="white">White</label>
-         <input id="black" type="radio" name="colour" value="black"/>
-         <label for="black">Black</label>
-         </fieldset>
-      </div> 
-      <br>
-      <br>
-      <div class="form-control">
-         <label for="size">What size does the coustomer's want</label>
-         <select id="size" name="size">
-            <option value="xs" selected>XS</option>
-            <option value="s" selected>S</option>
-            <option value="m" selected>M</option>
-            <option value="l" selected>L</option>
-            <option value="xl" selected>XL</option>
-            <option value="xxl" selected>XXL</option>
+          <fieldset>
+          <legend>What colour should this t-shirt be?</legend>
+          <input id="red" type="radio" name="colour" value="red"/>
+          <label for="red">Red</label>
+          <input id="white" type="radio" name="colour" value="white"/>
+          <label for="white">White</label>
+          <input id="black" type="radio" name="colour" value="black"/>
+          <label for="black">Black</label>
+          </fieldset>
+        </div> 
+        <br>
+        <br>
+        <div class="form-control">
+          <label for="size">What size does the coustomer's want</label>
+          <select id="size" name="size">
+             <option value="xs" selected>XS</option>
+             <option value="s" selected>S</option>
+             <option value="m" selected>M</option>
+             <option value="l" selected>L</option>
+             <option value="xl" selected>XL</option>
+             <option value="xxl" selected>XXL</option>
           </select>
-      </div>
-      <br>
-      <br>
-      <div class="form-control">
-         <label for="delivered">when do they won't the t-shirt to be delivered</label>
-         <input id="delivered" type="date" min="1 week" max="4 weeks" required>
-      </div>
-    </form> 
-</body>
+        </div>
+        <br>
+        <br>
+       <div class="form-control">
+          <label for="delivered">when do they won't the t-shirt to be delivered</label>
+          <input id="delivered" type="date" min="1 week" max="4 weeks" required>
+       </div>
+     </form> 
+   </body>
 </html>
