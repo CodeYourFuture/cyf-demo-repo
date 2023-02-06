@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(165, 165, 123);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    display:block;
+    justify-items:left;
+    align-items: flex-start;
+    margin: 0;
+}
+.header{
+    
+    position: absolute;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+form{
+    background:#cdc7b3;
+    padding:30px 20px;
+    border_radius:2px;
+    box-shadow:2px 5px 10px rgba(0,0,0,0.4);
+    max-width:450px;
+    margin:40px auto; 
+}
