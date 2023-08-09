@@ -1,1 +1,2 @@
 How old is the JavaScript programming language?
+JavaScript was invented by Brendan Eich in 1995.
